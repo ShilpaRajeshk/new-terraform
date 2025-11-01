@@ -1,14 +1,13 @@
-cat <<EOF > .gitignore
-# Terraform local files
+# Terraform local data
 .terraform/
 *.tfstate
 *.tfstate.backup
-crash.log
-*.tfvars
 .terraform.lock.hcl
+*.tfvars
+crash.log
 
-# OS files
+# OS and IDE
 .DS_Store
 Thumbs.db
-EOF
-.terraform/
+.vscode/
+.idea/
