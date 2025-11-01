@@ -1,0 +1,15 @@
+#ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+crash.logs
+
+*.tfvars
+*.tfvars.json
+*.backup
+*.bak
+
+.terraform/
+.terraform.lock.hcl
+
+
